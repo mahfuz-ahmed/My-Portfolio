@@ -1,17 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,600;0,700;1,100;1,300;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Anton", sans-serif;
   font-family: "Poppins", sans-serif;
   margin: 0%;
 }
 
+li a button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 7%;
+  background-color: rgb(29, 28, 27);
+  height: 55px;
+}
+
+.logo {
+  cursor: pointer;
+  color: #edf0f1;
+}
+.highlight {
+  color: #ae8a2c;
+}
+
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #edf0f1;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
+
+.cta button {
+  padding: 9px 9px;
+  width: 100px;
+  background-color: #ae8a2c;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.cta button:hover {
+  background-color: green;
+}
+.title {
+  margin-left: 7%;
+  text-align: center;
+  color: #ae8a2c;
+}
+
 section {
   height: 500px;
   margin-right: 10px;
-}
-
-.orange-highlight {
-  color: orange;
-  font-size: 150%;
 }
 
 .half-width {
@@ -25,6 +89,7 @@ section {
 .half-width img {
   height: 300px;
   margin-left: 100px;
+  border-radius: 20px;
 }
 .link-button {
   text-decoration: none;
