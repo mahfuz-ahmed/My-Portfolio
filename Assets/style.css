@@ -72,10 +72,16 @@ header {
   text-align: center;
   color: #ae8a2c;
 }
-
 section {
   height: 500px;
   margin-right: 10px;
+}
+
+#my-dream {
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px gray;
 }
 
 .half-width {
@@ -89,7 +95,6 @@ section {
 .half-width img {
   height: 300px;
   margin-left: 100px;
-  border-radius: 20px;
 }
 .link-button {
   text-decoration: none;
@@ -108,6 +113,8 @@ section {
   box-shadow: 10px 10px 40px gray;
   border-radius: 10px;
   box-shadow: rgb(49, 82, 110);
+  width: 580px;
+  height: 380px;
 }
 
 #full-stack {
